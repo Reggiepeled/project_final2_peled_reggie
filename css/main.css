@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font: 0.9rem helvetica;
+}
+
+/* HEADER & LOGO */
+header {
+    width: 100%;
+    background-color: #696353;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+/* MAIN */
+.main {
+    width: 100%;
+    padding-bottom: 3%;
+    font-size: 0.9rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: black;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #0b4d2e;
+    padding-bottom: 2%;
+}
+
+/* typography */
+.typography {
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+/* colors */
+.colors {
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+/* images */
+.gallery {
+    width: 100%;
+}
