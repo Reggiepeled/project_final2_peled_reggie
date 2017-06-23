@@ -56,6 +56,31 @@ h2 {
     width: 100%;
 }
 
+.color1 {
+    background-color: #696353;
+    margin-bottom: 2%;
+}
+
+.color2 {
+    background-color: #0b4d2e;
+    margin-bottom: 2%;
+}
+
+.color3 {
+    background-color: #bd9057;
+    margin-bottom: 2%;
+}
+
+.color4 {
+    background-color: #d2cbb9;
+    margin-bottom: 2%;
+}
+
+.color5 {
+    background-color: black;
+    margin-bottom: 2%;
+}
+
 /* images */
 .gallery {
     width: 100%;
