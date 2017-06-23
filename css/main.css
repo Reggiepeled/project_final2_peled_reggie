@@ -27,9 +27,9 @@ header {
 }
 
 /* MAIN */
-.main {
+main {
     width: 100%;
-    padding-bottom: 3%;
+    padding: 3%;
     font-size: 0.9rem;
 }
 
@@ -56,29 +56,33 @@ h2 {
     width: 100%;
 }
 
+ul li {
+    display: inline-block;
+    width: 25%;
+    padding: 10% 10% 10% 2%;
+    margin: 0 5% 5% 0;
+    color: white;
+}
+
 .color1 {
     background-color: #696353;
-    margin-bottom: 2%;
 }
 
 .color2 {
     background-color: #0b4d2e;
-    margin-bottom: 2%;
 }
 
 .color3 {
     background-color: #bd9057;
-    margin-bottom: 2%;
 }
 
 .color4 {
     background-color: #d2cbb9;
-    margin-bottom: 2%;
+    color: black;
 }
 
 .color5 {
     background-color: black;
-    margin-bottom: 2%;
 }
 
 /* images */
