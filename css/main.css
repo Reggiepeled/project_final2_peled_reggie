@@ -31,9 +31,15 @@ body {
 /* HEADER & LOGO */
 header {
     width: 100%;
+    min-height: 95px;
     background-color: #696353;
-    padding: 2%;
     margin-bottom: 5%;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;   /* stays the same for all screen sizes */
+    margin-top: 10px;
 }
 
 /* MAIN */
@@ -108,4 +114,16 @@ ul li {
 
 .gallery h2 {
     padding-left: 5%;
+}
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
