@@ -193,14 +193,20 @@ a:hover {
 }
 
 @media (min-width: 700px) {
+    header h1 {
+        padding-top: 2%;
+    }
+
     ul li {
         width: 25%;
     }
+
     .buttons,
     .links {
         display: inline;
     }
 
+    .typography,
     .gallery {
         margin-top: 5%;
     }
