@@ -74,7 +74,6 @@ h2 {
 
 /********************** colors ********************/
 .colors {
-    margin-bottom: 5%;
     width: 100%;
     padding: 5%;
 }
@@ -108,6 +107,24 @@ ul li {
     background-color: black;
 }
 
+/*********************** buttons *********************/
+.buttons {
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+button {    /* style stay the same for all screen sizes */
+    padding: 15px;
+    max-height: 50px;
+    border-radius: 5px;
+    background-color: #0b4d2e;
+    color: white;
+}
+
+button:hover {
+    background-color: #bd9057;
+}
 
 /*********************** images *********************/
 .gallery img {
