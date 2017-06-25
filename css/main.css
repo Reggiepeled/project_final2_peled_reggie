@@ -130,3 +130,20 @@ ul li {
     position: absolute;
     width: 1px;
 }
+
+@media (min-width: 1100px) {
+    .typography {
+        width: 50%;
+        float: left;
+    }
+
+    .colors {
+        width: 50%;
+        float: right;
+        padding: 0 0 0 5%;
+    }
+
+    .colors ul li {
+        width: 40%;
+    }
+}
