@@ -31,7 +31,7 @@ body {
 /* HEADER & LOGO */
 header {
     width: 100%;
-    min-height: 95px;
+    min-height: 150px;
     background-color: #696353;
     margin-bottom: 5%;
     text-align: center;
@@ -42,9 +42,13 @@ header h1 {
     padding-top: 5%;
 }
 
+.logo {
+    width: 100%;
+    position: absolute;
+}
+
 .logo img {
     width: 100px;   /* stays the same for all screen sizes */
-    margin-top: 10px;
 }
 
 /* MAIN */
@@ -57,6 +61,7 @@ main {
 
 /******************** typography ******************/
 .typography {
+    margin-top: 15%;
     margin-bottom: 5%;
     width: 100%;
     background-color: #d2cbb9;
@@ -168,6 +173,7 @@ a:hover {
     width: 1px;
 }
 
+/************* Media Queries ************/
 @media (min-width: 700px) {
     ul li {
         width: 25%;
