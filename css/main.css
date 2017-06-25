@@ -37,6 +37,11 @@ header {
     text-align: center;
 }
 
+header h1 {
+    color: white;
+    padding-top: 5%;
+}
+
 .logo img {
     width: 100px;   /* stays the same for all screen sizes */
     margin-top: 10px;
