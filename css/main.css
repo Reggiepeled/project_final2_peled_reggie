@@ -190,6 +190,15 @@ a:hover {
         float: left;
         margin-top: 15px;   /* stays the same from this point on */
     }
+
+    .buttons,
+    .links {
+        display: inline;
+    }
+
+    .gallery {
+        margin-top: 5%;
+    }
 }
 
 @media (min-width: 700px) {
@@ -201,13 +210,7 @@ a:hover {
         width: 25%;
     }
 
-    .buttons,
-    .links {
-        display: inline;
-    }
-
-    .typography,
-    .gallery {
+    .typography {
         margin-top: 5%;
     }
 }
